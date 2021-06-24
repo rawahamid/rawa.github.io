@@ -1,0 +1,250 @@
+/* Start Global Rules */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #dddddd54;
+}
+/* End Global Rules */
+
+/* Start Bootstrap Overrides */
+.navbar {
+  background-color: #fff !important;
+  box-shadow: 0px 0px 10px #ddd;
+  text-transform: uppercase;
+}
+
+.badge-danger {
+  background-color: #ff5050;
+}
+/* End Bootstrap Overrides */
+
+/* Start My Edits */
+.navbar .navbar-brand img {
+  vertical-align: middle;
+  border-style: none;
+  width: 60px;
+  height: 60px;
+  padding:  5px;
+}
+
+.navbar .navbar-nav .nav-item {
+  letter-spacing: 4px;
+  padding: 0 10px;
+  transition: all .2s ease-in-out;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.navbar .navbar-nav .nav-item:hover {
+  background-color: #ff5050;
+}
+
+.navbar .navbar-nav .nav-item:hover a {
+  color: #fff;
+}
+
+.navbar .social-icons .social-icon {
+  margin-left: 10px;
+}
+
+.navbar .social-icons .social-icon img {
+  width: 40px;
+  height: 40px;
+  filter: grayscale(100%);
+  transition: all .2s ease-in-out;
+}
+
+.navbar .social-icons .social-icon img:hover {
+  filter: grayscale(0);
+}
+
+/* Start Header Section */
+.header {
+  padding: 40px;
+  background-color: #e3e3e3;
+}
+
+.header .welcome {
+  font-size: 2em;
+  font-weight: 100;
+  color: #4d4d4d;
+}
+.header .firstname,
+.header .lastname {
+  font-size: 120px;
+  letter-spacing: 18px;
+  font-weight: 900;
+}
+
+.header .contactBtn {
+  background-color: #ff5050;
+  border-color: #ff5050;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  color: #fff;
+  margin: 15px 0;
+  transition: all .5s ease-in-out;
+}
+
+.header .contactBtn:hover {
+  opacity: 0.88;
+}
+
+.header img {
+  width: 650px;
+  margin: 10px 0;
+  height: 450px;
+}
+/* End Header Section */
+
+/* Start Skills Section */
+.skills {
+  padding: 40px;
+  background-color: #ffffff59; 
+}
+
+.skills .skills-body .skill {
+  background-color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  padding: 15px;
+  width: 250px;
+  height: 180px;
+  display:flex;
+  box-shadow: 1px 1px 1px #919191;
+  border: 1px solid #dddde2;
+  border-radius: 8px;
+}
+.skills .skills-body .skill .cont {
+  margin: auto;
+}
+
+.skills .skills-body .skill .cont img {
+  width: 70px;
+  height: 70px;
+}
+
+.skills .skills-body .skill .cont p {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 22px;
+  font-weight: 500;
+}
+/* End Skills Section */
+
+/* Start Projects Section */
+.projects {
+  padding: 40px;
+  background-color: #e3e3e3;
+}
+
+.projects .project {
+  height: 450px;
+  margin-bottom: 10px;
+}
+
+.projects .project .card {
+  height: 100%;
+  background-color: transparent;
+  border: 4px solid #cecece;
+  padding: 15px;
+  width: 95% !important;
+}
+
+.projects .project .card img {
+  height: 50%;
+}
+
+.projects .project .card a {
+  background-color: #ff5050;
+  border-color: #ff5050;
+  text-transform: uppercase;
+  padding: 12px;
+  color: #fff;
+  margin: 15px 0;
+  transition: all .5s ease-in-out;
+}
+
+.projects .project .card a:hover {
+  opacity: 0.88;
+}
+/* End Projects Section */
+
+/* Start Services Section */
+.services {
+  padding: 40px;
+  background-color: #f7f7f7;
+}
+
+.services .services-body .service {
+  margin: 10px auto 0;
+  border: 3px solid #eee;
+  padding: 15px;
+}
+
+.services .services-body .service img {
+  height: 564px;
+}
+
+.services .services-body .service h3 {
+  margin: 18px auto;
+}
+
+.services .services-body .service p {
+  color: #8c8c8c;
+}
+
+.services .services-body .service .contactBtn {
+  background-color: #ff5050;
+  border-color: #ff5050;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  color: #fff;
+  margin: 15px 0;
+  transition: all .5s ease-in-out;
+}
+
+.services .services-body .service .contactBtn:hover {
+  opacity: 0.88;
+}
+/* End Services Section */
+
+/* Start Contact Me Section */
+.contacts {
+  padding: 40px;
+  background-color: #e3e3e3;
+}
+
+.contacts .contactBtn {
+  background-color: #ff5050;
+  border-color: #ff5050;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  color: #fff;
+  margin: 15px 0;
+  transition: all .5s ease-in-out;
+}
+
+.contacts .contactBtn:hover {
+  opacity: 0.88;
+}
+.contacts .change {
+  height: 50px;
+}
+.contacts textarea {
+  height: 114px;
+  resize: none;
+}
+
+.contacts .form-control {
+  border: 2px solid #ced4da;
+  background-color: #e3e3e3 !important;
+}
+/* End Contact Me Section */
+
+/* End My Edits */
